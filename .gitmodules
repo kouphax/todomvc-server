@@ -1,0 +1,3 @@
+[submodule "play-2-scala/public"]
+	path = play-2-scala/public
+	url = git@github.com:kouphax/todomvc-server-static-content.git

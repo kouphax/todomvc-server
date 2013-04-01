@@ -1,0 +1,6 @@
+#
+# Common Files to Ignore across all projects
+#
+
+# Ignore OSX noise
+.DS_Store

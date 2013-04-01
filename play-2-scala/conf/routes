@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Map index.html to /
+GET     /                           controllers.Assets.at(path="/public", file="index.html")
+
+# Create API endpoints
+GET     /todos                      controllers.Todos.index
+POST    /todos                      controllers.Todos.create
+PUT     /todos/:id                  controllers.Todos.update(id: Int)
+DELETE  /todos/:id                  controllers.Todos.delete(id: Int)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /*file               controllers.Assets.at(path="/public", file)
