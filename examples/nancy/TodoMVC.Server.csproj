@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TodoMVCModule.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
