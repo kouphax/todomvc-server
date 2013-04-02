@@ -39,6 +39,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Nancy">
+      <HintPath>packages\Nancy.0.16.1\lib\net40\Nancy.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy.Hosting.Aspnet">
+      <HintPath>packages\Nancy.Hosting.Aspnet.0.16.1\lib\net40\Nancy.Hosting.Aspnet.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -57,12 +63,28 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\components\backbone\backbone.js" />
+    <Content Include="Content\components\jquery\jquery.js" />
+    <Content Include="Content\components\todomvc-common\base.css" />
+    <Content Include="Content\components\todomvc-common\base.js" />
+    <Content Include="Content\components\todomvc-common\bg.png" />
+    <Content Include="Content\components\underscore\underscore.js" />
+    <Content Include="Content\index.htm" />
+    <Content Include="Content\js\app.js" />
+    <Content Include="Content\js\collections\todos.js" />
+    <Content Include="Content\js\models\todo.js" />
+    <Content Include="Content\js\routers\router.js" />
+    <Content Include="Content\js\views\app.js" />
+    <Content Include="Content\js\views\todos.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="Content\.git" />
+    <Content Include="Content\.gitignore" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
