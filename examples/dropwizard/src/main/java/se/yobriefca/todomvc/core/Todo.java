@@ -13,11 +13,9 @@ public class Todo {
     private String title;
 
     @JsonProperty
-    @NotEmpty
     private long order;
 
     @JsonProperty
-    @NotEmpty
     private boolean completed;
 
     public Todo(){
