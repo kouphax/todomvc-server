@@ -4,3 +4,6 @@
 [submodule "examples/dropwizard/src/main/resources/assets"]
 	path = examples/dropwizard/src/main/resources/assets
 	url = git@github.com:kouphax/todomvc-server-static-content.git
+[submodule "examples/play-2-java/public"]
+	path = examples/play-2-java/public
+	url = git@github.com:kouphax/todomvc-server-static-content.git
