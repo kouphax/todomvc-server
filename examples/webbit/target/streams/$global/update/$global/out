@@ -1,0 +1,889 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/james/Projects/todomvc-server/examples/webbit/}webbit...[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: webbit#webbit_2.9.2;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.9.2[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/james/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/james/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.webbitserver#webbit;0.4.14[0m
+[0m[[0minfo[0m] [0mResolving org.webbitserver#webbit;0.4.14 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webbitserver#webbit;0.4.14 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/org.webbitserver/webbit/ivy-0.4.14.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.webbitserver#webbit;0.4.14 (resolved by public): /Users/james/.ivy2/cache/org.webbitserver/webbit/ivy-0.4.14.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/org.webbitserver/webbit/ivy-0.4.14.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.webbitserver#webbit;0.4.14 (resolved by public): /Users/james/.ivy2/cache/org.webbitserver/webbit/ivy-0.4.14.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.webbitserver#webbit;0.4.14[0m
+[0m[[0mdebug[0m] [0m	checking org.webbitserver#webbit;0.4.14 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.webbitserver#webbit;0.4.14 from public[0m
+[0m[[0mdebug[0m] [0m	found org.webbitserver#webbit;0.4.14 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve io.netty#netty;3.5.2.Final[0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.5.2.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.5.2.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/io.netty/netty/ivy-3.5.2.Final.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for io.netty#netty;3.5.2.Final (resolved by public): /Users/james/.ivy2/cache/io.netty/netty/ivy-3.5.2.Final.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/io.netty/netty/ivy-3.5.2.Final.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for io.netty#netty;3.5.2.Final (resolved by public): /Users/james/.ivy2/cache/io.netty/netty/ivy-3.5.2.Final.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0m	checking io.netty#netty;3.5.2.Final from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: io.netty#netty;3.5.2.Final from public[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.5.2.Final in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;1.9.12 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-core-asl;1.9.12 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.codehaus.jackson#jackson-core-asl;1.9.12 (resolved by public): /Users/james/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.codehaus.jackson#jackson-core-asl;1.9.12 (resolved by public): /Users/james/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	checking org.codehaus.jackson#jackson-core-asl;1.9.12 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.codehaus.jackson#jackson-core-asl;1.9.12 from public[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.jackson#jackson-core-asl;1.9.12 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.9.12 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-mapper-asl;1.9.12 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.codehaus.jackson#jackson-mapper-asl;1.9.12 (resolved by public): /Users/james/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.codehaus.jackson#jackson-mapper-asl;1.9.12 (resolved by public): /Users/james/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	checking org.codehaus.jackson#jackson-mapper-asl;1.9.12 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.codehaus.jackson#jackson-mapper-asl;1.9.12 from public[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.jackson#jackson-mapper-asl;1.9.12 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.google.guava#guava;14.0.1[0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;14.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.google.guava#guava;14.0.1 (resolved by public): /Users/james/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.google.guava#guava;14.0.1 (resolved by public): /Users/james/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m	checking com.google.guava#guava;14.0.1 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: com.google.guava#guava;14.0.1 from public[0m
+[0m[[0mdebug[0m] [0m	found com.google.guava#guava;14.0.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.+ of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.google.code.findbugs#jsr305;1.3.+[0m
+[0m[[0minfo[0m] [0mResolving com.google.code.findbugs#jsr305;1.3.+ ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.code.findbugs#jsr305;1.3.+ {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for com.google.code.findbugs#jsr305;1.3.+[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for com.google.code.findbugs#jsr305;1.3.+[0m
+[0m[[0mdebug[0m] [0m		tried /Users/james/.ivy2/local/com.google.code.findbugs/jsr305/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	listing all in /Users/james/.ivy2/local/com.google.code.findbugs/jsr305/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	using local to list all in /Users/james/.ivy2/local/com.google.code.findbugs/jsr305/[0m
+[0m[[0mdebug[0m] [0m		no resources found[0m
+[0m[[0mdebug[0m] [0m	local: unable to list resources for com.google.code.findbugs#jsr305;1.3.+: pattern=/Users/james/.ivy2/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext][0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.google.code.findbugs#jsr305;1.3.+[0m
+[0m[[0mdebug[0m] [0mpublic: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for com.google.code.findbugs#jsr305;1.3.+[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/[revision]/jsr305-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	listing all in http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/[revision]/jsr305-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	using public to list all in http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/maven-metadata.xml].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/maven-metadata.xml.md5].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/maven-metadata.xml.md5.sha1].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/maven-metadata.xml.sha1].[0m
+[0m[[0mdebug[0m] [0m		found 9 resources[0m
+[0m[[0mdebug[0m] [0m	found revs: [1.3.7, 1.3.8, 1.3.9, 2.0.0, 2.0.1, maven-metadata.xml, maven-metadata.xml.md5, maven-metadata.xml.md5.sha1, maven-metadata.xml.sha1][0m
+[0m[[0mdebug[0m] [0mpublic: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0m	public: rejected by version matcher: http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom (2.0.1)[0m
+[0m[[0mdebug[0m] [0m	public: rejected by version matcher: http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.0/jsr305-2.0.0.pom (2.0.0)[0m
+[0m[[0mdebug[0m] [0m	public: found md file for com.google.code.findbugs#jsr305;1.3.+[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom (1.3.9)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@19876493[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/james/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-1.3.9.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.google.code.findbugs#jsr305;1.3.9 (resolved by public): /Users/james/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-1.3.9.xml[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache: com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0m	checking com.google.code.findbugs#jsr305;1.3.9 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: com.google.code.findbugs#jsr305;1.3.9 from public[0m
+[0m[[0mdebug[0m] [0m	found com.google.code.findbugs#jsr305;1.3.9 in public[0m
+[0m[[0mdebug[0m] [0m	[1.3.9] com.google.code.findbugs#jsr305;1.3.+[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=provided[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=optional[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.webbitserver#webbit;0.4.14->io.netty#netty;3.5.2.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of io.netty#netty;3.5.2.Final of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.webbitserver#webbit;0.4.14 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.webbitserver#webbit;0.4.14 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.12->org.codehaus.jackson#jackson-core-asl;1.9.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.12 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.guava#guava;14.0.1 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies webbit#webbit_2.9.2;0.1-SNAPSHOT->com.google.code.findbugs#jsr305;1.3.+ [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.google.code.findbugs#jsr305;1.3.9 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=sources[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=docs[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for webbit#webbit_2.9.2;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mloadData of webbit#webbit_2.9.2;0.1-SNAPSHOT of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.webbitserver#webbit;0.4.14 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.2.Final / Number of dependencies = 16[0m
+[0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort done for : org.webbitserver#webbit;0.4.14[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.guava#guava;14.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.code.findbugs#jsr305;1.3.9 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/webbit/webbit_2.9.2/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webbitserver#webbit;0.4.14!webbit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.12!jackson-core-asl.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.12!jackson-mapper-asl.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.5.2.Final!netty.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1421ms :: artifacts dl 27ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.webbitserver#webbit;0.4.14 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.2.Final / Number of dependencies = 16[0m
+[0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort done for : org.webbitserver#webbit;0.4.14[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.guava#guava;14.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.code.findbugs#jsr305;1.3.9 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT compile produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.webbitserver#webbit;0.4.14 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.2.Final / Number of dependencies = 16[0m
+[0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort done for : org.webbitserver#webbit;0.4.14[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.guava#guava;14.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.code.findbugs#jsr305;1.3.9 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT runtime produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.webbitserver#webbit;0.4.14 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.2.Final / Number of dependencies = 16[0m
+[0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort done for : org.webbitserver#webbit;0.4.14[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.guava#guava;14.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.code.findbugs#jsr305;1.3.9 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT test produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT provided produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT optional produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.webbitserver#webbit;0.4.14 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.2.Final / Number of dependencies = 16[0m
+[0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort done for : org.webbitserver#webbit;0.4.14[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.guava#guava;14.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.code.findbugs#jsr305;1.3.9 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT compile-internal produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.webbitserver#webbit;0.4.14 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.2.Final / Number of dependencies = 16[0m
+[0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort done for : org.webbitserver#webbit;0.4.14[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.guava#guava;14.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.code.findbugs#jsr305;1.3.9 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT runtime-internal produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 7[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.webbitserver#webbit;0.4.14 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : io.netty#netty;3.5.2.Final / Number of dependencies = 16[0m
+[0m[[0mdebug[0m] [0mSort done for : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort done for : org.webbitserver#webbit;0.4.14[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : io.netty#netty;3.5.2.Final[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.guava#guava;14.0.1 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.google.code.findbugs#jsr305;1.3.9 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0mSort done for : com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : com.google.code.findbugs#jsr305;1.3.9[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT test-internal produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT plugin produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT sources produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT docs produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for webbit#webbit_2.9.2;0.1-SNAPSHOT pom produced in /Users/james/Projects/todomvc-server/examples/webbit/target/resolution-cache/reports/webbit-webbit_2.9.2/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1421ms resolve - 27ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

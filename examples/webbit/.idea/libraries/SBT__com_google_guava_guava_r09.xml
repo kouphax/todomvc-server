@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: com.google.guava:guava:r09">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/jars/guava-r09.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/docs/guava-r09-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/srcs/guava-r09-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

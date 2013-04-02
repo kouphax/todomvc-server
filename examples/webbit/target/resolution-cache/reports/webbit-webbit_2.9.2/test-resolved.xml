@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="webbit"
+		module="webbit_2.9.2"
+		revision="0.1-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20130402203646"/>
+	<dependencies>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="14.0.1" status="release" pubdate="20130314235719" resolver="public" artresolver="public" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="3651" time="0" location="/Users/james/.ivy2/cache/com.google.guava/guava/ivy-14.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
+				<caller organisation="webbit" name="webbit_2.9.2" conf="test, compile, runtime" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2189117" time="0" location="/Users/james/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="1.3.9" status="release" pubdate="20090824232822" resolver="public" artresolver="public" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2393" time="0" location="/Users/james/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-1.3.9.xml" searched="true" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom"/>
+				<caller organisation="webbit" name="webbit_2.9.2" conf="test, compile, runtime" rev="1.3.+" rev-constraint-default="1.3.+" rev-constraint-dynamic="1.3.+" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="no" details="" size="33015" time="0" location="/Users/james/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.12" status="release" pubdate="20130129154727" resolver="public" artresolver="public" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2655" time="0" location="/Users/james/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.12.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.pom"/>
+				<caller organisation="webbit" name="webbit_2.9.2" conf="test, compile, runtime" rev="1.9.12" rev-constraint-default="1.9.12" rev-constraint-dynamic="1.9.12" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="780385" time="0" location="/Users/james/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.12.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.12" status="release" pubdate="20130129154708" resolver="public" artresolver="public" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, master(*), compile(*), runtime, runtime(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2438" time="0" location="/Users/james/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.12.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.pom"/>
+				<caller organisation="webbit" name="webbit_2.9.2" conf="test, compile, runtime" rev="1.9.12" rev-constraint-default="1.9.12" rev-constraint-dynamic="1.9.12" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="default, compile, runtime, master" rev="1.9.12" rev-constraint-default="1.9.12" rev-constraint-dynamic="1.9.12" callerrev="1.9.12"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="232245" time="0" location="/Users/james/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.12.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.webbitserver" name="webbit">
+			<revision name="0.4.14" status="release" pubdate="20120713133639" resolver="public" artresolver="public" homepage="http://webbitserver.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
+				<license name="BSD License" url="http://www.opensource.org/licenses/bsd-license"/>
+				<metadata-artifact status="no" details="" size="3349" time="0" location="/Users/james/.ivy2/cache/org.webbitserver/webbit/ivy-0.4.14.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/webbitserver/webbit/0.4.14/webbit-0.4.14.pom"/>
+				<caller organisation="webbit" name="webbit_2.9.2" conf="test, compile, runtime" rev="0.4.14" rev-constraint-default="0.4.14" rev-constraint-dynamic="0.4.14" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="webbit" type="jar" ext="jar" status="no" details="" size="165120" time="0" location="/Users/james/.ivy2/cache/org.webbitserver/webbit/jars/webbit-0.4.14.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.5.2.Final" status="release" pubdate="20120705095746" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6423" time="0" location="/Users/james/.ivy2/cache/io.netty/netty/ivy-3.5.2.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.pom"/>
+				<caller organisation="org.webbitserver" name="webbit" conf="default, compile, runtime, master" rev="3.5.2.Final" rev-constraint-default="3.5.2.Final" rev-constraint-dynamic="3.5.2.Final" callerrev="0.4.14"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1121434" time="0" location="/Users/james/.ivy2/cache/io.netty/netty/bundles/netty-3.5.2.Final.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.2" status="release" pubdate="20120413132921" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2391" time="0" location="/Users/james/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom"/>
+				<caller organisation="webbit" name="webbit_2.9.2" conf="test, compile, runtime" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
