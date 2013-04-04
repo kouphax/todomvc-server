@@ -7,6 +7,9 @@
 [submodule "examples/play-2-java/public"]
 	path = examples/play-2-java/public
 	url = git@github.com:kouphax/todomvc-server-static-content.git
+[submodule "examples/expressjs/public"]
+	path = examples/expressjs/public
+	url = git@github.com:kouphax/todomvc-server-static-content.git
 [submodule "examples/nancy/Content"]
 	path = examples/nancy/Content
 	url = https://github.com/kouphax/todomvc-server-static-content.git
