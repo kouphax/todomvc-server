@@ -11,9 +11,8 @@ import java.io.File
 import akka.routing.FromConfig
 import org.mashupbots.socko.handlers.StaticContentHandlerConfig
 import spray.json._
-import DefaultJsonProtocol._
 import se.yobriefca.data.{Todo, Store}
-import data.Implicits._
+import data.DefaultProtocolWithTodo._
 
 case class ListTodosRequest(request: HttpRequestEvent)
 case class CreateTodoRequest(request: HttpRequestEvent)
@@ -23,7 +22,7 @@ case class DeleteTodoRequest(request: HttpRequestEvent, id: Long)
 class TodoHandler extends Actor {
   def receive = {
     case event: ListTodosRequest => {
-      event.request.response.write(Store.getAll.map(_.toJson).toJson.toString, "application/json")
+      event.request.response.write(Store.getAll.toJson.toString, "application/json")
       context.stop(self)
     }
     case event: CreateTodoRequest => {
