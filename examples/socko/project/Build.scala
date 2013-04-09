@@ -11,7 +11,7 @@ object Build extends Build {
     resolvers += "spray" at "http://repo.spray.io/",
     libraryDependencies ++= Seq(
       "org.mashupbots.socko" %% "socko-webserver" % "0.2.4",
-      "io.spray" %%  "spray-json" % "1.2.3"
+      "io.spray"             %%  "spray-json"     % "1.2.3"
     )
   )
 }
