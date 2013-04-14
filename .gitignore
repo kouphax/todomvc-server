@@ -4,3 +4,9 @@
 
 # Ignore OSX noise
 .DS_Store
+
+#Ignore Eclipse noise
+.classpath
+.project
+.settings/
+target/
