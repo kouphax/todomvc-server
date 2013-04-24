@@ -3,7 +3,7 @@
 # ~~~~
 
 # Map index.html to /
-GET     /                           controllers.Assets.at(path="/public", file="index.html")
+GET     /                           controllers.Assets.at(path="/public", file="index.htm")
 
 # Create API endpoints
 GET     /todos                      controllers.Todos.index
