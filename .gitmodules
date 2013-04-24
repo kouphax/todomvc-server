@@ -6,6 +6,7 @@
 	url = git@github.com:kouphax/todomvc-server-static-content.git
 [submodule "examples/webbit/public"]
 	path = examples/webbit/public
+	url = git@github.com:kouphax/todomvc-server-static-content.git
 [submodule "examples/play-2-java/public"]
 	path = examples/play-2-java/public
 	url = git@github.com:kouphax/todomvc-server-static-content.git
