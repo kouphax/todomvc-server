@@ -14,7 +14,7 @@ public class TodoMVCApp {
         WebServer webServer = WebServers.createWebServer(9996)
                 .add(new StaticFileHandler("./public"))
                 .add("/", new StaticFileHandler("./public/index.htm"))
-                .add("/todos", new TodoHandler(new Store()));
+                .add("/todos(/\\d*)?", new TodoHandler(new Store()));
         webServer.start().get();
         System.out.println("Listening on " + webServer.getUri());
     }

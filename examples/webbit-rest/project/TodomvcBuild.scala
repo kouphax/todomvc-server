@@ -1,11 +1,11 @@
 import sbt._
 import sbt.Keys._
 
-object WebbitBuild extends Build {
+object TodomvcBuild extends Build {
 
-  lazy val webbit = Project("webbit", file(".")).settings(
+  lazy val webbitRest = Project("webbit-rest", file(".")).settings(
     libraryDependencies ++= Seq(
-      "org.webbitserver"     % "webbit"             % "0.4.15",
+      "org.webbitserver"     % "webbit-rest"        % "0.3.0",
       "org.codehaus.jackson" % "jackson-core-asl"   % "1.9.12",
       "org.codehaus.jackson" % "jackson-mapper-asl" % "1.9.12",
       "com.google.guava"     % "guava"              % "14.0.1"

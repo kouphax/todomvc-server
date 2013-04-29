@@ -22,3 +22,6 @@
 [submodule "examples/spring-xml-config/src/main/resources/assets"]
 	path = examples/spring-xml-config/src/main/resources/assets
 	url = git@github.com:kouphax/todomvc-server-static-content.git
+[submodule "examples/webbit-rest/public"]
+	path = examples/webbit-rest/public
+	url = git@github.com:kouphax/todomvc-server-static-content.git
