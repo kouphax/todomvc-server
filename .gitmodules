@@ -4,6 +4,9 @@
 [submodule "examples/dropwizard/src/main/resources/assets"]
 	path = examples/dropwizard/src/main/resources/assets
 	url = git@github.com:kouphax/todomvc-server-static-content.git
+[submodule "examples/webbit/public"]
+	path = examples/webbit/public
+	url = git@github.com:kouphax/todomvc-server-static-content.git
 [submodule "examples/play-2-java/public"]
 	path = examples/play-2-java/public
 	url = git@github.com:kouphax/todomvc-server-static-content.git
@@ -18,6 +21,9 @@
 	url = git@github.com:kouphax/todomvc-server-static-content.git
 [submodule "examples/spring-xml-config/src/main/resources/assets"]
 	path = examples/spring-xml-config/src/main/resources/assets
+	url = git@github.com:kouphax/todomvc-server-static-content.git
+[submodule "examples/webbit-rest/public"]
+	path = examples/webbit-rest/public
 	url = git@github.com:kouphax/todomvc-server-static-content.git
 [submodule "examples/spark/public"]
 	path = examples/spark/public
