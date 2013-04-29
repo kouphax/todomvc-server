@@ -25,3 +25,6 @@
 [submodule "examples/webbit-rest/public"]
 	path = examples/webbit-rest/public
 	url = git@github.com:kouphax/todomvc-server-static-content.git
+[submodule "examples/spark/public"]
+	path = examples/spark/public
+	url = git@github.com:kouphax/todomvc-server-static-content.git
