@@ -1,0 +1,7 @@
+<openejb-jar>
+	<pojo-deployment class-name="se.yobriefca.todomvc.web.rs.TodoResource">
+		<properties>
+			cxf.jaxrs.providers = json
+		</properties>
+	</pojo-deployment>
+</openejb-jar>
