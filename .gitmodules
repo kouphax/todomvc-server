@@ -28,3 +28,7 @@
 [submodule "examples/spark/public"]
 	path = examples/spark/public
 	url = git@github.com:kouphax/todomvc-server-static-content.git
+[submodule "examples/jee6-tomee/src/main/resources/assets"]
+        path = examples/jee6-tomee/src/main/resources/assets
+        url = git@github.com:kouphax/todomvc-server-static-content.git
+

@@ -1,0 +1,3 @@
+<resources>
+	<Service id="json" class-name="org.codehaus.jackson.jaxrs.JacksonJsonProvider" />
+</resources>
