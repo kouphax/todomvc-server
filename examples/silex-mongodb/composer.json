@@ -1,0 +1,13 @@
+{
+    "require": {
+        "silex/silex": "1.0.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "TodoMVC": "src/"
+        }
+    }
+}
