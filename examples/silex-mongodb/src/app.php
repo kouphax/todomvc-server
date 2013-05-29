@@ -1,11 +1,11 @@
 <?php
 
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use TodoMVC\Data\Store;
-
+q
 $app = new Silex\Application();
 $app['debug'] = true;
 
@@ -17,17 +17,17 @@ $app['store'] = $app->share(function ($app) {
     return new Store($app['mongo']);
 });
 
-$app->get('/todos', function() use ($app) {
+$app->get('/todos', function () use ($app) {
     $store = $app['store'];
     return $app->json($store->getAll());
 });
 
-$app->get('/todos/{id}', function($id) use ($app) {
+$app->get('/todos/{id}', function ($id) use ($app) {
     $store = $app['store'];
     return $app->json($store->get($id));
 });
 
-$app->post('/todos', function(Request $request) use ($app) {
+$app->post('/todos', function (Request $request) use ($app) {
     $store = $app['store'];
     $data = json_decode($request->getContent());
 
@@ -35,7 +35,7 @@ $app->post('/todos', function(Request $request) use ($app) {
     return $app->json($todo, 201);
 });
 
-$app->put('/todos/{id}', function($id, Request $request) use ($app) {
+$app->put('/todos/{id}', function ($id, Request $request) use ($app) {
     $store = $app['store'];
     $data = json_decode($request->getContent());
 
@@ -43,7 +43,7 @@ $app->put('/todos/{id}', function($id, Request $request) use ($app) {
     return new Response('updated', 204);
 });
 
-$app->delete('/todos/{id}', function($id) use ($app) {
+$app->delete('/todos/{id}', function ($id) use ($app) {
     $store = $app['store'];
     $store->remove($id);
     return new Response('deleted', 200);
