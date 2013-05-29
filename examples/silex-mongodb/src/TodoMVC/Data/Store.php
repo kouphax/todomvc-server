@@ -1,15 +1,12 @@
 <?php
 namespace TodoMVC\Data;
 
-use TodoMVC\Model\Todo;
-
 class Store {
 
     private $collection;
 
-    public function __construct() {
-        $m = new \MongoClient();
-        $this->collection = $m->store->todos;
+    public function __construct(\MongoClient $mongo) {
+        $this->collection = $mongo->store->todos;
     }
 
     public function get($id) {

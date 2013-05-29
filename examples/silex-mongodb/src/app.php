@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use TodoMVC\Model\Todo;
 
-$store = new TodoMVC\Data\Store();
+$store = new TodoMVC\Data\Store(new \MongoClient());
 
 $app = new Silex\Application();
 $app['debug'] = true;
@@ -23,18 +23,18 @@ $app->get('/todos/{id}', function($id) use ($app, $store) {
 
 $app->post('/todos', function(Request $request) use ($app, $store) {
     $data = json_decode($request->getContent());
-    $todo = new Todo($data->title, $data->order, $data->completed);
-    $store->create($todo);
+//    $todo = new Todo($data->title, $data->order, $data->completed);
+    $todo = $store->create($data);
 
     return $app->json($todo, 201);
 });
 
 $app->put('/todos/{id}', function($id, Request $request) use ($app, $store) {
     $data = json_decode($request->getContent());
-    $todo = new Todo($data->title, $data->order, $data->completed);
-    $todo->id = $data->id;
+//    $todo = new Todo($data->title, $data->order, $data->completed);
+//    $todo->id = $data->id;
 
-    $store->update($id, $todo);
+    $store->update($id, $data);
     return new Response('updated', 204);
 });
 
