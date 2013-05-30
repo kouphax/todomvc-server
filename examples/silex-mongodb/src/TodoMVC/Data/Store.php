@@ -10,7 +10,7 @@ class Store {
     }
 
     public function get($id) {
-        return $todo = $this->collection->findOne(array('id' => $id), array('_id' => 0));
+        return $this->collection->findOne(array('id' => $id), array('_id' => 0));
     }
 
     public function getAll() {
@@ -24,9 +24,11 @@ class Store {
     }
 
     public function create($todo) {
-        $todo->_id = new \MongoId();
-        $todo->id = (string) $todo->_id;
-        return $this->collection->insert($todo);
+        $id = new \MongoId();
+        $todo->_id = $id;
+        $todo->id = (string) $id;
+        $this->collection->insert($todo);
+        return $this->collection->findOne(array('id' => ((string) $id)), array('_id' => 0));
     }
 
     public function update($id, $todo) {
